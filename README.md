@@ -12,6 +12,7 @@ Questions:
 1. Installation of VS Code:
 
    - Describe the steps to download and install Visual Studio Code on Windows 11 operating system. Include any prerequisites that might be needed.
+
      Download the Visual Studio Code installer for Windows.Once it is downloaded, run the installer (VSCodeUserSetup-{version}.exe). This will only take a minute. by default it is downloaded
 
 2. First-time Setup:
@@ -45,12 +46,14 @@ Status Bar - Information about the opened project and the files you edit.
 4. Command Palette:
 
    - What is the Command Palette in VS Code, and how can it be accessed? Provide examples of common tasks that can be performed using the Command Palette.
+
      The Command Palette provides access to many commands and it can be accessed by typing Ctrl+Shift+P.
      You can run editor commands, open files, search for symbols, and see a quick outline of a file, all using the same interactive window.
 
 5. Extensions in VS Code:
 
    - Discuss the role of extensions in VS Code. How can users find, install, and manage extensions? Provide examples of essential extensions for web development.
+
      VS Code extensions let you add languages, debuggers, and tools to your installation to support your development workflow.
      user can find extension by clicking on the extension icon on the side of vs code and choosing the one the want to download.
      examples of essential extensions are
@@ -99,11 +102,14 @@ Source-, function-, conditional-, inline breakpoints, and log points.
 Stack traces, including multi-thread and multi-process support.
 
 10. Using Source Control:
+
     - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
+
       If your workspace is on your local machine, you can enable Git source control by creating a Git repository with the Initialize Repository command. When VS Code doesn't detect an existing Git repository, the Source Control view will give you the options to Initialize Repository or Publish to GitHub.
 
 Describe the process of initializing a repository, making commits, and pushing changes to GitHub is
 Open Terminal .
+
 Navigate to the root directory of your project.
 Initialize the local directory as a Git repository. By default, the initial branch is called main . ...
 Add the files in your new local repository. ...
